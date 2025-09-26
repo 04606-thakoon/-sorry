@@ -1,15 +1,15 @@
 /* Global styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f9f9f9;
-  color: #333;
+  background: white;
+  color: black;
   line-height: 1.6;
-  margin: 0;
-  padding: 0;
+  margin: 15px;
+  padding: 10;
 }
 
 a {
-  color: #007acc;
+  color: blue;
   text-decoration: none;
 }
 
@@ -21,7 +21,7 @@ a:hover {
   max-width: 900px;
   margin: 40px auto;
   padding: 20px;
-  background: #fff;
+  background: pink;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
   border-radius: 8px;
 }
@@ -30,7 +30,7 @@ a:hover {
 header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid black;
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
@@ -52,12 +52,12 @@ header {
 .header-text h2 {
   margin-top: 5px;
   font-size: 1.1em;
-  color: #666;
+  color: gray;
 }
 
 /* Section headings */
 section h3 {
-  border-bottom: 2px solid #007acc;
+  border-bottom: 2px solid black;
   padding-bottom: 5px;
   margin-top: 40px;
 }
@@ -72,8 +72,8 @@ section h3 {
 }
 
 .skills-list li {
-  background: #eef6fc;
-  color: #007acc;
+  background:red;
+  color: pink;
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 0.95em;
@@ -93,7 +93,7 @@ section h3 {
 
 .date {
   font-size: 0.9em;
-  color: #777;
+  color: blue;
 }
 
 /* Projects */
@@ -110,5 +110,5 @@ footer {
   text-align: center;
   margin-top: 40px;
   font-size: 0.9em;
-  color: #aaa;
+  color: red;
 }
